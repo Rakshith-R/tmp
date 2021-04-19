@@ -4,7 +4,6 @@ defaults:
     comment:
 #       bot_account: ceph-csi-bot
     merge:
-      update_bot_account: rakshith-r
       method: rebase
       rebase_fallback: merge
       strict: smart
