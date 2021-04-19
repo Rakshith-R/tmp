@@ -2,15 +2,15 @@
 defaults:
   actions:
     comment:
-      bot_account: ceph-csi-bot
+#       bot_account: ceph-csi-bot
     merge:
-      update_bot_account: ceph-csi-bot
-      method: merge
+      update_bot_account: rakshith-r
+      method: rebase
       rebase_fallback: merge
       strict: smart
       strict_method: rebase
     rebase:
-      bot_account: ceph-csi-bot
+#       bot_account: ceph-csi-bot
 pull_request_rules:
   - name: automatic merge PR having ready-to-merge label
     conditions:
