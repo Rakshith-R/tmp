@@ -4,7 +4,8 @@ defaults:
     comment:
       bot_account: ceph-csi-bot
     merge:
-      method: rebase
+      update_bot_account: ceph-csi-bot
+      method: merge
       rebase_fallback: merge
       strict: smart
       strict_method: rebase
