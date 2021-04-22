@@ -5,7 +5,7 @@ defaults:
 #       bot_account: ceph-csi-bot
     merge:
       method: merge
-      rebase_fallback: rebase
+      merge_fallback: rebase
       strict: smart
       strict_method: rebase
     rebase:
