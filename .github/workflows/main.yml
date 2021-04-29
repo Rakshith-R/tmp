@@ -34,6 +34,5 @@ jobs:
         run: |
           echo ${ github.ref }
           echo ${{ github.ref }}
-          echo ${github.ref:10}
           echo ${{github.ref:10}}
           echo test, and deploy your project.
