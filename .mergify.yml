@@ -18,4 +18,11 @@ pull_request_rules:
       merge: {}
       dismiss_reviews: {}
       delete_head_branch: {}
-      #hello
+  - name: req reviews
+    conditions:
+      - -closed
+      - -draft
+    actions:
+      request_reviews:
+        users:
+          - parth-gr
